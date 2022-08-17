@@ -80,15 +80,12 @@
 
 
 
-let course = {
-    title: "Learn CSS Grid for free",
-    lessons: 16,
-    length: 23,
-    creator: 'Ignacio',
-    level: 2,
-    isFree: true,
-    tags: ["html", "css", 3]
+let airbnb = {
+    title: 'San Fusto Abbey',
+    price: 173,
+    available: true,
+    rooms: ['1 person', 'family size', 'kitchen']
 }
 
-console.log(course.tags);
+console.log(`${airbnb.title} cost: $${airbnb.price}`);
 
