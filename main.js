@@ -25,7 +25,6 @@ function getRandomCard() {
     else {
         return randomNumber;
     }
-
 }
 
 function startGame() {
